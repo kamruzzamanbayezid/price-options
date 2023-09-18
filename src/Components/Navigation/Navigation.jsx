@@ -17,7 +17,7 @@ const Navigation = () => {
       ];
 
       return (
-            <div className="">
+            <div className=" bg-slate-600 p-6">
                   <div onClick={() => setOpen(!open)} className="text-2xl md:hidden text-white">
                         {
                               open ? <RxCross1>
